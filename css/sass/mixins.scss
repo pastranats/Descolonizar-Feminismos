@@ -1,0 +1,13 @@
+$fonthead: 'Montserrat', sans-serif;
+$fontstack: 'Roboto', sans-serif;
+$colordefault: #fff;
+$colorpink: #8E1EFA;
+$darkbg: #1a1a1a;
+$darkbg-secondary: #252525;
+$darktext: #e0e0e0;
+
+@mixin transition($second) {
+  -webkit-transition: all $second ease-in-out;
+    -moz-transition: all $second ease-in-out;
+        transition: all $second ease-in-out;
+}
